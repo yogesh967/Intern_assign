@@ -5,7 +5,7 @@ html {
 
 body {
     position: relative;
-    font-family: Arial;
+    font-family: Calibri;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -14,14 +14,13 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     text-align: center;
     color: #007bff;
 }
 
 section {
     min-height: 100vh;
-    /* padding: 10px 0 0 0; */
     background-image: url(../img/bg.jpg);
     vertical-align: middle !important;
 }
@@ -31,6 +30,7 @@ section {
     margin: 0 auto;
     width: 35%;
     background-color: #fff;
+    font-size: 14px;
     vertical-align: middle !important;
     border: 2px solid #fff;
     border-radius: 5px;
@@ -38,7 +38,7 @@ section {
 
 .outerBox {
     max-height: 100vh;
-    padding: 50px 0;
+    padding: 55px 0;
     vertical-align: middle !important;
 }
 
@@ -48,7 +48,7 @@ label span {
 
 input[type=text], input[type=number] {
     width: 100%;
-    margin: 10px 0;
+    margin: 8px 0;
     padding: 10px;
     font-size: 14px;
     border: 1px solid #ccc;
