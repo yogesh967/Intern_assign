@@ -1,0 +1,72 @@
+html {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+body {
+    position: relative;
+    font-family: Arial;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding-bottom: 15px;
+    text-align: center;
+    color: #007bff;
+}
+
+section {
+    min-height: 100vh;
+    /* padding: 10px 0 0 0; */
+    background-image: url(../img/bg.jpg);
+    vertical-align: middle !important;
+}
+
+.box {
+    padding: 30px;
+    margin: 0 auto;
+    width: 35%;
+    background-color: #fff;
+    vertical-align: middle !important;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.outerBox {
+    max-height: 100vh;
+    padding: 50px 0;
+    vertical-align: middle !important;
+}
+
+label span {
+    color: red;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #036ddf;
+    border: 2px solid #036ddf;
+    border-radius: 5px;
+}
